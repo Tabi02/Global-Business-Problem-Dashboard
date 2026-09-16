@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Business Problem Discovery Dashboard</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+            --accent-color: #38bdf8;
+            --critical-color: #ef4444;
+            --high-color: #f97316;
+            --medium-color: #eab308;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 2rem;
+        }
+        .header {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1rem;
+        }
+        .header h1 {
+            margin: 0 0 0.5rem 0;
+            color: var(--accent-color);
+        }
+        .header p {
+            margin: 0;
+            color: var(--text-muted);
+        }
+        .table-container {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th, td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        th {
+            background-color: #111827;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+        tr:hover {
+            background-color: #283548;
+        }
+        .badge {
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+        }
+        .badge-critical { background-color: rgba(239, 68, 68, 0.2); color: var(--critical-color); border: 1px solid var(--critical-color); }
+        .badge-high { background-color: rgba(249, 115, 22, 0.2); color: var(--high-color); border: 1px solid var(--high-color); }
+        .badge-medium { background-color: rgba(234, 179, 8, 0.2); color: var(--medium-color); border: 1px solid var(--medium-color); }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Global Business Problem Discovery Dashboard</h1>
+        <p>Real-time analytics and tracking of critical global business challenges</p>
+    </div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Severity</th>
+                    <th>Industry</th>
+                    <th>Region</th>
+                    <th>Impact Score</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+
+        <tr>
+            <td><strong>PROB-001</strong></td>
+            <td>Supply Chain Bottlenecks in Semiconductor Manufacturing</td>
+            <td><span class="badge badge-critical">Critical</span></td>
+            <td>Technology</td>
+            <td>East Asia</td>
+            <td>92.5</td>
+            <td>Shortages of raw silicon and logistics bottlenecks delay production lines globally.</td>
+        </tr>
+
+        <tr>
+            <td><strong>PROB-002</strong></td>
+            <td>Cross-Border Regulatory Compliance Overhead</td>
+            <td><span class="badge badge-high">High</span></td>
+            <td>Fintech</td>
+            <td>Europe</td>
+            <td>78.0</td>
+            <td>Divergent privacy regulations across borders increase operational cost and friction.</td>
+        </tr>
+
+        <tr>
+            <td><strong>PROB-003</strong></td>
+            <td>Energy Grid Instability in Industrial Hubs</td>
+            <td><span class="badge badge-high">High</span></td>
+            <td>Manufacturing</td>
+            <td>North America</td>
+            <td>84.0</td>
+            <td>Frequent power fluctuations impact high-precision automated manufacturing equipment.</td>
+        </tr>
+
+        <tr>
+            <td><strong>PROB-004</strong></td>
+            <td>Agricultural Yield Reductions from Climate Disruption</td>
+            <td><span class="badge badge-critical">Critical</span></td>
+            <td>Agriculture</td>
+            <td>Latin America</td>
+            <td>88.0</td>
+            <td>Unpredictable weather patterns reduce crop yields and strain food export contracts.</td>
+        </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

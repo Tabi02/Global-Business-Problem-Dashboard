@@ -1,0 +1,38 @@
+[
+  {
+    "id": "PROB-001",
+    "title": "Supply Chain Bottlenecks in Semiconductor Manufacturing",
+    "industry": "Technology",
+    "region": "East Asia",
+    "severity": "Critical",
+    "impact_score": 92.5,
+    "description": "Shortages of raw silicon and logistics bottlenecks delay production lines globally."
+  },
+  {
+    "id": "PROB-002",
+    "title": "Cross-Border Regulatory Compliance Overhead",
+    "industry": "Fintech",
+    "region": "Europe",
+    "severity": "High",
+    "impact_score": 78.0,
+    "description": "Divergent privacy regulations across borders increase operational cost and friction."
+  },
+  {
+    "id": "PROB-003",
+    "title": "Energy Grid Instability in Industrial Hubs",
+    "industry": "Manufacturing",
+    "region": "North America",
+    "severity": "High",
+    "impact_score": 84.0,
+    "description": "Frequent power fluctuations impact high-precision automated manufacturing equipment."
+  },
+  {
+    "id": "PROB-004",
+    "title": "Agricultural Yield Reductions from Climate Disruption",
+    "industry": "Agriculture",
+    "region": "Latin America",
+    "severity": "Critical",
+    "impact_score": 88.0,
+    "description": "Unpredictable weather patterns reduce crop yields and strain food export contracts."
+  }
+]

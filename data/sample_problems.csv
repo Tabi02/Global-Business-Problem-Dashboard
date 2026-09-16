@@ -1,0 +1,5 @@
+id,title,industry,region,severity,impact_score,description
+PROB-001,Supply Chain Bottlenecks in Semiconductor Manufacturing,Technology,East Asia,Critical,92.5,Shortages of raw silicon and logistics bottlenecks delay production lines globally.
+PROB-002,Cross-Border Regulatory Compliance Overhead,Fintech,Europe,High,78.0,Divergent privacy regulations across borders increase operational cost and friction.
+PROB-003,Energy Grid Instability in Industrial Hubs,Manufacturing,North America,High,84.0,Frequent power fluctuations impact high-precision automated manufacturing equipment.
+PROB-004,Agricultural Yield Reductions from Climate Disruption,Agriculture,Latin America,Critical,88.0,Unpredictable weather patterns reduce crop yields and strain food export contracts.
